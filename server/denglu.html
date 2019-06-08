@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/denglu.css">
+    <link rel="stylesheet" href="css/public.css">
+    <script src="js/jquery.2.2.4.js"></script>
+    <script src="js/jquery.banner.1.1.js"></script>
+    <script>
+    $(function(){
+        $("#head").load("pulic.html .tou");
+        $("#footer").load("pulic.html .jio")
+    })
+    </script>
+</head>
+<body>
+    <div id="head">
+        
+
+    </div>
+
+    <div id="main">
+        <div class="cont">
+            <div id="imgbox">
+                <a href="##" class="gun"><img src="https://www.ocj.com.cn/image_site/shop/conts/421/761/1241/1441/1_20190531162422_64.jpg" alt=""></a>
+                <a href="##" class="gun"><img src="https://www.ocj.com.cn/image_site/shop/conts/421/761/1241/1441/1_20180704150846_87.jpg" alt=""></a>
+                <!-- <ul class="list"><li></li><li></li></ul> -->
+            </div>
+            <div class="deng">
+                    <div class="from">
+                        <p>登录名</p><span></span>
+                        <input type="text" class="user" placeholder="用户名/手机/邮箱">
+                        <p>密码<span></span><a href="##">忘记密码？</a></p>
+                        <input type="pass" class="pass">
+                        <p>验证码<span>请输入验证码</span></p>
+                        <input type="text" class="txt1"><input type="text" class="txt2" value="3456"><b>看不清<br>换一张</b><br>
+                        <input type="button" value="登录" class="btn"><br>
+                        <input type="checkbox" class="check"> 记住登录名 <a href="http://localhost:8383/zhuce.html" class="zhu">免费注册</a>
+                        <span class="msg"></span>
+                        <div class="others">
+                            <span>其他登录方式：</span><div class="others_link">
+                                    <a href="javascript: doSina();" title="新浪微博 "><img src="https://www.ocj.com.cn/common/images/passport/img.weibo.mini.gif" alt="新浪微博"></a>
+                                    <a href="javascript:doAlipay();" title="支付宝"><img src="https://www.ocj.com.cn/common/images/passport/img.alipay.mini.gif" alt="支付宝"></a>
+                                    <a href="javascript:doQQ();" title="QQ登录"><img src="https://www.ocj.com.cn/common/images/passport/Connect_logo_1.png" alt="QQ登录"></a>
+                                    <a href="javascript:doWEIXIN();" title="微信登录"><img src="https://www.ocj.com.cn/image_site/weixin/WEIXIN.png" alt="微信"></a>
+                                  </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        
+    </div>
+
+    <div id=footer></div>
+</body>
+<script>
+$("#imgbox").banner({
+        items:$("#imgbox .gun"),
+        list:true,
+        autoPlay:true,
+        delayTime:3000,
+        moveTime:200,
+        index:0
+    });    
+    console.log($("#imgbox"))
+</script>
+</html>

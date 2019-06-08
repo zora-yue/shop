@@ -1,0 +1,265 @@
+@font-face {
+  font-family: 'iconfont';
+  /* project id 1220718 */
+  src: url("//at.alicdn.com/t/font_1220718_44ilbjx7s74.eot");
+  src: url("//at.alicdn.com/t/font_1220718_44ilbjx7s74.eot?#iefix") format("embedded-opentype"), url("//at.alicdn.com/t/font_1220718_44ilbjx7s74.woff2") format("woff2"), url("//at.alicdn.com/t/font_1220718_44ilbjx7s74.woff") format("woff"), url("//at.alicdn.com/t/font_1220718_44ilbjx7s74.ttf") format("truetype"), url("//at.alicdn.com/t/font_1220718_44ilbjx7s74.svg#iconfont") format("svg"); }
+
+.iconfont {
+  font-family: "iconfont";
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+#head .top {
+  width: 100%;
+  height: 32px;
+  background: #f6f6f6;
+  font: 12px/32px "";
+  border: 1px solid #d9d9d7; }
+  #head .top .margin {
+    width: 1190px;
+    margin: 0 auto; }
+    #head .top .margin .top-l {
+      float: left; }
+    #head .top .margin .top-r {
+      float: right; }
+      #head .top .margin .top-r a {
+        padding: 0 5px; }
+        #head .top .margin .top-r a i {
+          margin-right: 3px; }
+      #head .top .margin .top-r .jian {
+        color: #d0d0d0; }
+
+#head .header {
+  width: 1190px;
+  margin: 0 auto;
+  margin-top: 10px;
+  height: 82px; }
+  #head .header .logo {
+    float: left; }
+  #head .header .seach {
+    margin: 12px 0 0 120px;
+    float: left;
+    height: 34px;
+    border: 3px solid #f12e24; }
+    #head .header .seach input:nth-child(1) {
+      height: 34px;
+      width: 450px;
+      float: left;
+      outline: none;
+      border: none;
+      padding-left: 8px; }
+    #head .header .seach #btn {
+      height: 34px;
+      width: 82px;
+      float: left;
+      border: none;
+      outline: none;
+      background: #f12e24;
+      color: #fff;
+      font-size: 16px; }
+    #head .header .seach ul li {
+      height: 24px;
+      float: left;
+      margin: 0 8px 0 3px;
+      font: 12px/2 ""; }
+      #head .header .seach ul li .red {
+        color: red; }
+      #head .header .seach ul li:last-child {
+        float: right; }
+  #head .header .new {
+    margin-left: 17px;
+    display: inline; }
+
+#main {
+  width: 1110px;
+  height: 500px;
+  margin: 0 auto; }
+  #main .cont {
+    width: 870px;
+    margin-left: 95px;
+    padding: 50px 0 70px 0; }
+    #main .cont #imgbox {
+      width: 450px;
+      height: 330px;
+      float: left;
+      position: relative;
+      overflow: hidden;
+      padding-top: 28px; }
+      #main .cont #imgbox a {
+        display: block;
+        width: 450px;
+        height: 300px;
+        position: absolute;
+        left: 450px; }
+        #main .cont #imgbox a:nth-child(1) {
+          left: 0; }
+        #main .cont #imgbox a img {
+          width: 450px;
+          height: auto; }
+    #main .cont .deng {
+      border: 5px solid #f7f7f7;
+      float: right; }
+      #main .cont .deng .from {
+        border: 1px solid #e7e7e7;
+        height: 353px;
+        padding: 15px 37px 0 39px; }
+        #main .cont .deng .from p {
+          color: #474747;
+          font-size: 13px;
+          font-weight: bold;
+          width: 270px;
+          margin-bottom: 6px; }
+          #main .cont .deng .from p a {
+            color: #505966;
+            float: right;
+            font-size: 12px;
+            margin-top: 2px; }
+          #main .cont .deng .from p span {
+            color: red;
+            font-size: 12px;
+            margin-left: 10px; }
+        #main .cont .deng .from .user, #main .cont .deng .from .pass {
+          width: 203px;
+          height: 20px;
+          font: 14px/20px "";
+          background: url(../img/yin.png) no-repeat;
+          background-size: 34px 34px;
+          padding: 6px 30px 7px 35px;
+          margin-bottom: 14px; }
+        #main .cont .deng .from .pass {
+          background: url(../img/suo.png) no-repeat;
+          background-size: 30px 30px; }
+        #main .cont .deng .from .txt1 {
+          width: 78px;
+          height: 20px;
+          padding: 6px 20px 7px 10px; }
+        #main .cont .deng .from .txt2 {
+          width: 100px;
+          height: 42px;
+          outline: none;
+          border: none;
+          text-align: center;
+          font-size: 16px; }
+        #main .cont .deng .from b {
+          height: 32px;
+          font: 12px/16px "";
+          cursor: pointer;
+          display: inline-block; }
+        #main .cont .deng .from .btn {
+          background: #e12f2f;
+          color: #fff;
+          width: 270px;
+          height: 37px;
+          margin-top: 10px;
+          font-size: 18px;
+          margin-bottom: 8px; }
+        #main .cont .deng .from .zhu {
+          color: #0080c6;
+          font-size: 14px;
+          font-weight: bold;
+          float: right; }
+        #main .cont .deng .from .others {
+          margin-top: 15px;
+          border-top: 1px dashed #ccc;
+          width: 270px;
+          display: flex;
+          justify-content: space-between;
+          padding-top: 10px; }
+          #main .cont .deng .from .others span {
+            font-size: 12px;
+            color: #dbdbdb; }
+
+#footer {
+  position: relative;
+  margin-top: 20px; }
+  #footer .margin {
+    width: 1190px;
+    margin: 0 auto; }
+    #footer .margin .foot-top {
+      height: 170px;
+      padding-top: 14px; }
+      #footer .margin .foot-top .menu {
+        width: 838px;
+        float: left; }
+        #footer .margin .foot-top .menu .f-list {
+          width: 115px;
+          margin-left: 20px;
+          float: left;
+          text-align: center; }
+          #footer .margin .foot-top .menu .f-list .title-1 {
+            text-align: center; }
+            #footer .margin .foot-top .menu .f-list .title-1 span {
+              font-size: 29px;
+              color: #6d7177; }
+          #footer .margin .foot-top .menu .f-list ul .title {
+            font: 600 14px/25px "";
+            color: #505966;
+            height: 25px; }
+          #footer .margin .foot-top .menu .f-list ul li {
+            height: 20px; }
+            #footer .margin .foot-top .menu .f-list ul li a {
+              color: #6d7177;
+              font: 14px/20px ""; }
+      #footer .margin .foot-top .foot-top-r {
+        float: left;
+        height: 147px;
+        width: 338px;
+        border: 1px solid #d9d9d9;
+        margin-left: 10px; }
+        #footer .margin .foot-top .foot-top-r .gonggao {
+          line-height: 29px;
+          margin: 5px 0;
+          height: 29px;
+          color: #505966; }
+          #footer .margin .foot-top .foot-top-r .gonggao h4 {
+            float: left;
+            font-size: 14px;
+            margin-left: 13px; }
+          #footer .margin .foot-top .foot-top-r .gonggao .gun {
+            float: left;
+            height: 29px;
+            width: 212px;
+            margin-left: 10px; }
+            #footer .margin .foot-top .foot-top-r .gonggao .gun a {
+              color: #4a9bd6; }
+          #footer .margin .foot-top .foot-top-r .gonggao .more {
+            float: left;
+            color: #505966;
+            margin-left: 12px; }
+        #footer .margin .foot-top .foot-top-r .tu {
+          float: left;
+          margin-left: 9px; }
+    #footer .margin .footer-b {
+      border-top: 3px solid #5c686e;
+      height: auto;
+      margin-top: 10px;
+      padding-top: 20px;
+      position: relative; }
+      #footer .margin .footer-b .zlogo {
+        position: absolute;
+        width: 170px;
+        height: 42px;
+        left: 0; }
+        #footer .margin .footer-b .zlogo img {
+          width: 126px;
+          height: 100%; }
+        #footer .margin .footer-b .zlogo span {
+          font-size: 12px;
+          color: #82888b;
+          margin: 8px; }
+      #footer .margin .footer-b .foot-text {
+        color: #82888b;
+        text-align: center;
+        padding: 2px 0; }
+        #footer .margin .footer-b .foot-text a {
+          color: #333; }
+      #footer .margin .footer-b .icon-f {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        #footer .margin .footer-b .icon-f li {
+          display: inline;
+          margin-right: 15px; }
